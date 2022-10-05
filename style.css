@@ -1,4 +1,38 @@
-h1{
-    font-Size: 15px;
-    font-weight: normal;
+body{
+    text-align: center;
 }
+
+div{ 
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 8px;
+    background-image: url();
+}
+
+#portrait{
+    border-radius: 50%;
+    cursor: pointer;
+    transition: border-radius .5s;
+}
+
+.changed{
+    border-radius: 0%;
+}
+
+h1{
+    font-Size: 18px;
+}
+
+#works{
+    text-align: left;
+}
+
+#worksList li{
+    display: inline-block;
+    padding-right: 10%;
+}
+
+
